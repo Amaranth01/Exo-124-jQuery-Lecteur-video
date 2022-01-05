@@ -9,6 +9,4 @@ devra également être modifié pour afficher pause à la place de lecture
 à l'utilisateur la progression de la lecture de la video
 - En bonus, en utilisant les éléments html déjà présent, agrémenter le lecteur de fonctionnalités supplémentaires
 
-
-
 N'oubliez pas de lier jQuery à la page et de créer un fichier javascript séparé pour y placer votre code.
