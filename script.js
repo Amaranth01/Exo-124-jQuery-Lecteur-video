@@ -2,9 +2,6 @@
 let player = $('.player__video').first();
 let progress = $('.progress__filled').first();
 let toggle = true;
-let maxBar = 200;
-let currentBar = 0;
-let intervalId;
 
 //button play pause
 $(".toggle").click(function (){
@@ -22,7 +19,8 @@ $(".toggle").click(function (){
 
 //See the progress of the video
 player.on('timeupdate', function (){
-    console.log(this.on)
+    progress.attr("value", this.currentTime/this.duration);
+    console.log(progress);
 });
 
 //progress filled
